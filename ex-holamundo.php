@@ -8,11 +8,14 @@
 </head>
 
 <body>
-<?php
+<!--<?php
    echo( "<h1>Hello world</H1>" );
-?>
+?>-->
 <p>
-Benvinguts al curs de PHP.  
+Benvinguts al curs de PHP. 
 </p>
 </body>
 </html>
+<!--
+la parte que se genera dinamicamente el titulo de hello world
+cuando abrimos el fichero php desde el sistema de archivos se nos abre en un editor de texto	-->
