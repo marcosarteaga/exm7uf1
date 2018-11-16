@@ -14,7 +14,8 @@
 </head>
 <body>
 <?php 
-$code=$_GET["paises"];
+$code=$_GET["country"];
+echo $code;
 $conn = mysqli_connect('localhost','marcos','marcos123');
 mysqli_select_db($conn, 'world'); 
 $consulta = "SELECT city.Name NCITY ,country.Name NCOUNTRY  FROM city,country WHERE city.CountryCode=country.Code AND city.CountryCode='$code';";
